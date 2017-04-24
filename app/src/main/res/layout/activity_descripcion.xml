@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enzoruiz.curso3semana2.DescripcionActivity"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/margen"
+    android:layout_marginLeft="@dimen/margen"
+    android:layout_marginTop="@dimen/margen"
+    android:layout_marginBottom="@dimen/margen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_confirmacion"
+        android:textSize="@dimen/tamaño_titulo"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_nombre"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_fechaNacimiento"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_telefono"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_email"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_descripcion"
+        android:layout_marginBottom="@dimen/margen"/>
+
+    <Button
+        android:id="@+id/bEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_editar"/>
+
+</LinearLayout>

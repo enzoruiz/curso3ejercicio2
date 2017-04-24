@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen">10dp</dimen>
+    <dimen name="alto_datepicker">215dp</dimen>
+    <dimen name="tamaño_titulo">30dp</dimen>
+</resources>
